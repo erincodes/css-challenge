@@ -18,17 +18,15 @@
 					<h1>Dylan McDonald:~$</h1>
 					<em>Computer Scientist. Cat Lover. Picard Fan.</em>
 				</div>
+				<!-- WELCOME IMAGE -->
+				<div class="welcome-gif">
+					<img src="images/welcome.gif" alt="welcome to my homepage">
+				</div>
 			</header>
 
 			<!-- INSTRUCTIONS PANEL -->
 			<section>
 				<div>
-
-					<!-- WELCOME IMAGE -->
-					<div class="welcome-gif">
-						<img src="images/welcome.gif" alt="welcome to my homepage">
-					</div>
-
 					<div class="instructions-wrapper">
 						<div class="instructions-content">
 							<h2>Instructions</h2>
