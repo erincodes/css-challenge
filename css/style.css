@@ -8,6 +8,7 @@
 html, body {
 	margin: 0;
 	box-sizing: border-box;
+	font-family: monospace;
 }
 
 .container {
@@ -67,8 +68,10 @@ body { width: 100%;}
 ******************************************************/
 
 .welcome-gif {
-	alignment: center;
-	padding-left: 250px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
 }
 
 .instructions-wrapper {
@@ -81,4 +84,27 @@ body { width: 100%;}
 img[alt*="captain janeway"] {
 	flex: auto;
 	max-height: 200px;
+	max-width: 200px;
+}
+
+.about-me {
+	display: auto;
+	background-color: blue;
+	color: white;
+	padding: 20px;
+}
+
+img[alt*="captain picard"] {
+	float: left;
+	border: solid white;
+	margin: 20px;
+}
+
+.beauty-rest {
+	font-style: italic;
+	color: yellow;
+}
+
+.skillz-header {
+	text-align: right;
 }
