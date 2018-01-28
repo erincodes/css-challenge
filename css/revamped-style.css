@@ -8,3 +8,17 @@
 .Site-content {
 	flex: 1;
 }
+
+.container {
+	background-color: black;
+	color: lawngreen;
+	text-align: center;
+}
+
+.instructions-wrapper{
+
+}
+
+.instructions-content{
+
+}
