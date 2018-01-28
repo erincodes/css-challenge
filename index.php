@@ -22,10 +22,12 @@
 
 			<!-- INSTRUCTIONS PANEL -->
 			<section>
-				<div class="container">
+				<div>
 
 					<!-- WELCOME IMAGE -->
-					<img src="images/welcome.gif" alt="welcome to my homepage">
+					<div class="welcome-gif">
+						<img src="images/welcome.gif" alt="welcome to my homepage">
+					</div>
 
 					<div class="instructions-wrapper">
 						<div class="instructions-content">
@@ -40,12 +42,12 @@
 						<img src="images/captain-janeway.png" alt="captain janeway" />
 						<div class="clearfix"></div>
 					</div><!--/.instructions-->
-				</div><!--/.container-->
+				</div>
 			</section>
 
 			<!-- ABOUT ME -->
 			<section class="about-me">
-				<div class="container">
+				<div>
 					<img src="images/stunning.jpg" alt="captain picard" />
 					<h2>A Day in the Life...</h2>
 					<p>Engage! Some days you get the bear, and some days the bear gets you. I'd like to think that I haven't changed those things, sir. Did you come here for something in particular or just general Riker-bashing? That might've been one of the shortest assignments in the history of Starfleet.</p>
@@ -56,7 +58,7 @@
 
 			<!-- PROFESSIONAL SKILLZ -->
 			<section>
-				<div class="container">
+				<div>
 					<h2>Summary of Profe$$ional Skillz</h2>
 					<table>
 						<tr>
@@ -80,12 +82,12 @@
 							<td>Meme Master</td>
 						</tr>
 					</table>
-				</div><!--/.container-->
+				</div>
 			</section>
 
 			<!-- CONTACT FORM -->
 			<section>
-				<div class="container">
+				<div>
 					<div class="form-wrapper">
 						<h2>Contact Me! I <3 to fix printers!</h2>
 						<form>

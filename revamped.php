@@ -16,7 +16,7 @@
 			</div>
 		</header>
 		<main class="Site-content">
-			<img src="images/welcome.gif" alt="welcome to my homepage">
+<!--			<img src="images/welcome.gif" alt="welcome to my homepage">-->
 			<div class="instructions-wrapper">
 				<div class="instructions-content">
 					<h2>Instructions</h2>
