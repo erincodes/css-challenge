@@ -84,7 +84,7 @@ body { width: 100%;}
 img[alt*="captain janeway"] {
 	flex: auto;
 	max-height: 200px;
-	max-width: 200px;
+	max-width: 250px;
 }
 
 .about-me {
@@ -105,6 +105,23 @@ img[alt*="captain picard"] {
 	color: yellow;
 }
 
+
 .skillz-header {
 	text-align: right;
+	padding: 10px;
+}
+
+
+table, th, td {
+	background-color: #000000;
+	color: lawngreen;
+	border: 1px solid white;
+	text-align: left;
+	font-size: 1.5rem;
+}
+
+table {
+	width: 75%;
+	margin: 10px;
+	padding: 10px;
 }

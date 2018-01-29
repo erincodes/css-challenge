@@ -56,11 +56,11 @@
 
 			<!-- PROFESSIONAL SKILLZ -->
 			<section>
-				<div class="professional-">
+				<div>
 					<div class="skillz-header">
 					<h2>Summary of Profe$$ional Skillz</h2>
 					</div>
-					<table>
+					<table class="skillz-table">
 						<tr>
 							<th>Languages</th>
 							<th>Software</th>
@@ -121,7 +121,7 @@
 		</div><!--/.sfooter-content-->
 
 		<footer>
-			<div class="container">
+			<div>
 				<h4>Best viewed with Netscape Navigator. Proudly hosted by GeoCities.</h4>
 			</div>
 		</footer>
