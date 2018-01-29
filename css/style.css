@@ -121,13 +121,13 @@ table, th, td {
 }
 
 table {
-	width: 75%;
+	width: 80%;
 	margin: 10px;
 	padding: 10px;
 }
 
 .form-wrapper {
-	background-color: forestgreen;
+	background-color: darkgreen;
 	border: 20px solid black;
 	color: lawngreen;
 	padding: 2em;
@@ -140,6 +140,11 @@ table {
 
 .form-wrapper input, textarea {
 	width: 30%;
+}
+
+.form-wrapper button {
+	background-color: lawngreen;
+	color: black;
 }
 
 footer {
