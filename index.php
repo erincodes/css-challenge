@@ -18,11 +18,13 @@
 					<h1>Dylan McDonald:~$</h1>
 					<em>Computer Scientist. Cat Lover. Picard Fan.</em>
 				</div>
+			</header>
+
 				<!-- WELCOME IMAGE -->
 				<div class="welcome-gif">
 					<img src="images/welcome.gif" alt="welcome to my homepage">
 				</div>
-			</header>
+
 
 			<!-- INSTRUCTIONS PANEL -->
 			<section>

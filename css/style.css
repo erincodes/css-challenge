@@ -5,11 +5,6 @@
 * Some rules have been included here to give you a head start.
 * Create your own custom CSS rules below. Have fun!
 ******************************************************/
-html, body {
-	margin: 0;
-	box-sizing: border-box; /*changes the way the box model behaves by default. Box model grows inside out. */
-	font-family: monospace;
-}
 
 .container { /*grid structure that is required for bootstrap and other frameworks*/
 	background-color: black;
@@ -69,12 +64,50 @@ body { width: 100%;}
 * * Attribute Selectors
 ******************************************************/
 
+/*****************************************************
+* It's a good idea to make your CSS into sections and label as such with comments. Organization is key!
+* Comes into play with specificity and inheritance as well.
+* Order in which style sheets are loaded, then order of how your CSS rules appear, then specificity rules inherent to CSS.
+******************************************************/
+
+/*****************************************************
+* global
+******************************************************/
+html, body {
+	margin: 0;
+	box-sizing: border-box; /*changes the way the box model behaves by default. Box model grows inside out. Affects padding and border. Margin refers to the outside of the box and is not affected by this. */
+	font-family: courier New, monospace; /*monospaced fonts are used in computing, each letter takes up the same amount of space on the output*/
+}
+
+/*****************************************************
+* header
+******************************************************/
+
+header {
+	background-color: black;
+	color: limegreen; /*color property affects the text color and the text border*/
+	padding: 2rem 0; /*zero out padding on left and right*/
+}
+
+header h1 {
+	margin: 0 2rem 0 0; /*zero out the margin on all sides of the h1 tag within the header tag*/
+	display: inline-block; /*sit inline but perserve the box model of other elements. Hybrid! Could also use flex*/
+}
+
+/*****************************************************
+* welcome gif
+******************************************************/
+
 .welcome-gif {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 	width: 50%;
 }
+
+/*****************************************************
+* instructions
+******************************************************/
 
 .instructions-wrapper {
 	display: flex;
@@ -88,6 +121,10 @@ img[alt*="captain janeway"] {
 	max-height: 200px;
 	max-width: 250px;
 }
+
+/*****************************************************
+* a day in the life
+******************************************************/
 
 .about-me {
 	display: auto;
@@ -107,6 +144,9 @@ img[alt*="captain picard"] {
 	color: yellow;
 }
 
+/*****************************************************
+* professional skillz
+******************************************************/
 
 .skillz-header {
 	text-align: right;
@@ -128,7 +168,11 @@ table {
 	padding: 10px;
 }
 
-.form-wrapper {
+/*****************************************************
+* contact form
+******************************************************/
+
+.form-wrapper {  /*I could've used nth child 4 or last child to target the form section*/
 	background-color: darkgreen;
 	border: 20px solid black;
 	color: lawngreen;
@@ -148,6 +192,10 @@ table {
 	background-color: lawngreen;
 	color: black;
 }
+
+/*****************************************************
+* footer
+******************************************************/
 
 footer {
 	background-color: black;
