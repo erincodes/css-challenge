@@ -17,7 +17,7 @@
 	clear: both; /*clears everything on right and left if you're using floats, Rochelle provided as a hint that we should use these.*/
 }
 
-/* create a responsive container */
+/* create a responsive container depending on viewport width*/
 /* default width is the full width of the viewport. Only as the screen gets larger, we progressively enhance.*/
 @media only screen and (min-width: 1200px) {
 	.container { width: 1170px; }
@@ -100,8 +100,7 @@ header h1 {
 
 .welcome-gif {
 	display: block;
-	margin-left: auto;
-	margin-right: auto;
+	margin: 0 auto; /*shorthand syntax, left and right auto-fit*/
 	width: 50%;
 }
 
@@ -109,17 +108,19 @@ header h1 {
 * instructions
 ******************************************************/
 
+/***Flexbox is one dimensional, organize elements in a column OR row. Grid is two dimensional, can do grid AND row.***/
 .instructions-wrapper {
-	display: flex;
+	display: flex; /* could do display: grid; instead. Native CSS grid, not the same as Bootstrap grid. Pretty new functionality.*/
 	padding: 10px;
 	margin: 60px auto;
 	border: 6px solid black;
 }
 
-img[alt*="captain janeway"] {
+img[alt*="captain janeway"] { /*attribute selector*/
 	flex: auto;
-	max-height: 200px;
 	max-width: 250px;
+	/*max-height: 200px;*/
+	align-self: start; /*a flex-box weird thing!*/
 }
 
 /*****************************************************
@@ -133,14 +134,15 @@ img[alt*="captain janeway"] {
 	padding: 20px;
 }
 
-img[alt*="captain picard"] {
+img[alt*="captain picard"] { /*attribute selector*/
 	float: left;
 	border: solid white;
 	margin: 20px;
 }
 
-.beauty-rest {
+.beauty-rest {  /*Could've used about-me span*/
 	font-style: italic;
+	font-weight: bold;
 	color: yellow;
 }
 
@@ -148,24 +150,24 @@ img[alt*="captain picard"] {
 * professional skillz
 ******************************************************/
 
-.skillz-header {
+.skillz-header {  /* This is the 4th child of its parent, good way to write a selector. Could've done section: nth-chold(4) h2 */
 	text-align: right;
 	padding: 10px;
 }
 
 
-table, th, td {
-	background-color: #000000;
-	color: lawngreen;
+th, td {
+	background-color: #000000; /*Include the background color and border here vs. on the table as a whole to avoid the "double white" lines*/
 	border: 1px solid white;
 	text-align: left;
 	font-size: 1.5rem;
 }
 
-table {
+table { /* This selector would impact any and all tables throughout the site. Works in this case, since we just have one, but cuidado! */
 	width: 80%;
 	margin: 10px;
 	padding: 10px;
+	color: lawngreen;
 }
 
 /*****************************************************
